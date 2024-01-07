@@ -1,0 +1,48 @@
+{
+    "dimension":{
+        "easy":{
+            "width": 10,
+            "height": 8,
+            "bombs": 10
+        },
+        "medium":{
+            "width": 18,
+            "height": 14,
+            "bombs": 40
+        },
+        "hard":{
+            "width": 24,
+            "height": 20,
+            "bombs": 99
+        }
+    },
+    "tile-size": 32,
+    "title": "Minesweeper",
+    "image-path":{
+        "tile-1":"res/images/tile_1.png",
+        "tile-2":"res/images/tile_2.png",
+        "tile-3":"res/images/tile_3.png",
+        "tile-4":"res/images/tile_4.png",
+        "tile-5":"res/images/tile_5.png",
+        "tile-6":"res/images/tile_6.png",
+        "tile-blank":"res/images/tile_blank.png",
+        "tile-covered":"res/images/tile_covered.png",
+        "tile-flag":"res/images/tile_flag.png",
+        "tile-bomb-explode":"res/images/tile_bomb_explode.png",
+        "tile-bomb-reveal":"res/images/tile_bomb_reveal.png",
+        "smile-icon":"res/images/smile_icon.png",
+        "sad-icon":"res/images/sad_icon.png"
+    },
+    "messages": {
+        "win-message": "You win ! \nTime taken : {}s",
+        "lose-message": "You lose ! \nBecareful next time !"
+    },
+    "window": {
+        "main": {
+            "position": [100, 100]
+        },
+        "message": {
+            "position": [250, 200]
+        }
+    }
+}
